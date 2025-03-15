@@ -1,0 +1,83 @@
+:root {
+  --grey: #002f34;
+  --lightgrey: #4a5152;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 330px;
+  border: 1px solid rgb(164, 163, 163);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardImg {
+  width: 100%;
+  max-height: 160px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.cardImg img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.price-icon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item-price {
+  font-size: 2rem;
+  color: var(--grey);
+  font-weight: bold;
+}
+
+.heart-icon {
+  font-size: 2.8rem;
+}
+
+.item-text {
+  font-size: 1.6rem;
+  color: var(--grey);
+  font-weight: 500;
+  line-height: 22px;
+  height: 44px;
+  overflow: hidden;
+}
+
+.item-location {
+  font-size: 1.6rem;
+  color: var(--lightgrey);
+}
+
+.item-postdate {
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: var(--lightgrey);
+}
+
+.item-info {
+  margin-top: 20px;
+}
